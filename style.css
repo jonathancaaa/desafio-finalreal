@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*font-family: 'Quicksand', sans-serif;*/
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(assets/img/Imagen-fondo-home.jpg)
+}
+
+/*----------------------------------------------HEADER---------------------------------------------------------------*/
+
+header{
+   background-color:rgb(240, 220, 220) ;
+  /*background-color: white;*/
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+}
+
+/*logo emaa*/
+
+.img-porcentaje{
+    width: 105px;
+    height: auto;
+    padding: 6px;  
+}
+
+/*lista nav*/
+
+a{
+    text-decoration: none;
+    /*color:rgb(201, 171, 98);*/
+    color: black;
+}
+
+.nav-link{
+    margin: 10px;
+}
+
+.menu-nav :hover{
+    color: beige;
+    transition: 0.5s;
+    text-shadow: 1px 1px 7px black;
+    }
+
+.menu-nav{
+    display: inline;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+/*-------------------------------------------------MAIN INDEX-----------------------------------------------------------*/
+
+main{
+    padding-bottom: 30px;
+    }
+
+h1, h2, h3{
+    font-size: 40px;
+    color: rgb(201, 171, 98);
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+iframe{
+    width: 350px;
+    height: 200px;
+    margin-left: 970px;
+}
+
+.main-titulos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*----------------------------------------------------FOOTER---------------------------------------------------------*/
+
+footer{
+    background-color:#FFF7BC;
+    position: relative;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    text-transform: uppercase;
+    }
+
+        
+
+    
+
+
+.logo-posicion{
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+} 
+
+
+    
+
+/*--------------------------------------------MAIN/GALERIA---------------------------------------------------------*/
+
+.slider{
+    width: 33%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carrusel li{
+    list-style: none;
+    width: 100%;
+}
+
+
+.carrusel{
+    display: flex;
+    padding: 0;
+    width: 800%;
+    animation: carrusel 40s linear infinite alternate;
+   
+}
+@keyframes carrusel{
+    0%{ margin-left:0 ;}
+    10%{ margin-left:0 ;}
+
+    12%{ margin-left:-100%;}
+    22%{ margin-left:-100%;}
+
+    24%{ margin-left:-200%;}
+    34%{ margin-left:-200%;}
+
+    36%{ margin-left:-300%;}
+    46%{ margin-left:-300%;}
+
+    48%{ margin-left:-400%;}
+    58%{ margin-left:-400%;}
+
+    60%{ margin-left:-500%;}
+    70%{ margin-left:-500%;}
+
+    72%{ margin-left:-600%;}
+    82%{ margin-left:-600%;}
+
+    84%{ margin-left:-700%;}
+    94%{ margin-left:-700%;}
+
+}
+
+/*--------------------------------------------MAIN/CATALOGO---------------------------------------------------------*/
+.img-cat{
+    width: 95%;
+    margin-left: 33px;
+    }
+
+
+ 
+
+
+
+
+/*--------------------------------------------MAIN/SOBRE MI---------------------------------------------------------*/
+
+.sobre-mi{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    }
+
+.parrafo{
+    margin: 40px;
+}
+
+
+
+
+
+/*--------------------------------------------MAIN/CONTACTO---------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
