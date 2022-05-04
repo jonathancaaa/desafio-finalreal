@@ -16,14 +16,16 @@ body{
 /*----------------------------------------------HEADER---------------------------------------------------------------*/
 
 header{
-   background-color:rgb(240, 220, 220) ;
-  /*background-color: white;*/
+   /*background-color:rgb(240, 220, 220) ;*/
     position: sticky;
     top: 0;
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: space-between; 
 
+}
+header{
+    background-image: linear-gradient(to top, white, pink);
 }
 
 /*logo emaa*/
@@ -90,14 +92,16 @@ iframe{
 /*----------------------------------------------------FOOTER---------------------------------------------------------*/
 
 footer{
-    background-color:#FFF7BC;
+    /*background-color:#FFF7BC;*/
     position: relative;
     height: 100px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-small;
     text-transform: uppercase;
     }
-
+footer{
+    background-image: linear-gradient(to top, gold, white);
+}
         
 
     
