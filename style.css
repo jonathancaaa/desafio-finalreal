@@ -99,8 +99,9 @@ footer{
     font-size: x-small;
     text-transform: uppercase;
     }
+
 footer{
-    background-image: linear-gradient(to top, gold, white);
+    background-image: linear-gradient(to top, black, white);
 }
         
 
@@ -165,10 +166,7 @@ footer{
 }
 
 /*--------------------------------------------MAIN/CATALOGO---------------------------------------------------------*/
-.img-cat{
-    width: 95%;
-    margin-left: 33px;
-    }
+
 
 
  
