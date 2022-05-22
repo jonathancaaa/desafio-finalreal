@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "JetBrains Mono";
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.container {
+  width: 75%;
+  margin-bottom: 60px;
+}
+
+footer {
+  position: relative;
+  height: 100px;
+  font-family: 'JetBrains Mono';
+}
+
+footer {
+  background: black;
+}
+
+.logo-posicion {
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+}
+
+.imagen {
+  width: 100%;
+}
+
+.imagen img {
+  width: 100%;
+}
+
+.galeria {
+  list-style: none;
+  width: 100%;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-column-gap: .5rem;
+          column-gap: .5rem;
+  row-gap: .5rem;
+}
+
+@media (min-width: 100px) {
+  .galeria {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 520px) {
+  .galeria {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 728px) {
+  .galeria {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .galeria {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.nav-link {
+  margin: 10px;
+  font-size: medium;
+  margin-top: 60px;
+}
+
+.menu-nav :hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-shadow: 5px 5px 7px black;
+}
+
+main {
+  padding-bottom: 30px;
+}
+
+h1, h2, h3 {
+  font-size: 40px;
+  color: #c4a24d;
+  padding: 20px;
+  text-align: center;
+}
+
+.main-titulos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.emaa-fondo {
+  width: 100%;
+}
+
+.sobre-mi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 50px;
+  margin-bottom: 60px;
+}
+
+.parrafo-sobremi {
+  margin: 40px;
+  font-size: large;
+}
+/*# sourceMappingURL=style.css.map */
