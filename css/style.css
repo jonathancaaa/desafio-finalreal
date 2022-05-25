@@ -13,9 +13,56 @@ body {
   background-color: whitesmoke;
 }
 
-.container {
-  width: 75%;
-  margin-bottom: 60px;
+form {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+
+h2 {
+  text-align: center;
+  margin: 0%;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+#boton {
+  background: #fff;
+  /* no me lo toma*/
+  color: #31384a;
+  /* no me lo toma*/
+  padding: 20px;
+}
+
+#boton:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  form {
+    width: 100%;
+  }
 }
 
 footer {
@@ -24,14 +71,14 @@ footer {
   font-family: 'JetBrains Mono';
 }
 
-footer {
-  background: black;
+footer .logo-posicion {
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
 }
 
-.logo-posicion {
-  position: fixed;
-  bottom: 5px;
-  right: 10px;
+footer {
+  background: black;
 }
 
 .imagen {
@@ -93,10 +140,17 @@ footer {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   text-shadow: 5px 5px 7px black;
+  position: fixed;
 }
 
 main {
   padding-bottom: 30px;
+  margin-top: 100px;
+}
+
+main div .emaa-fondo {
+  width: 100%;
+  margin-top: 28px;
 }
 
 h1, h2, h3 {
@@ -118,10 +172,6 @@ h1, h2, h3 {
           align-items: flex-end;
 }
 
-.emaa-fondo {
-  width: 100%;
-}
-
 .sobre-mi {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -135,6 +185,6 @@ h1, h2, h3 {
 
 .parrafo-sobremi {
   margin: 40px;
-  font-size: large;
+  font-size: x-large;
 }
 /*# sourceMappingURL=style.css.map */
