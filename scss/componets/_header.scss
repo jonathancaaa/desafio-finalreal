@@ -1,11 +1,13 @@
-.nav-link{
-    margin: 10px;
-    font-size: medium;
-    margin-top: 60px;
-}
+#navbarNavAltMarkup{
 
-.menu-nav :hover{
+   .navbar-brand :hover{
     transition: 0.5s;
     text-shadow: 5px 5px 7px black;
     position: fixed;
     }
+   .nav-link{
+    margin: 10px;
+    font-size: medium;
+    margin-top: 60px;
+    }
+}
