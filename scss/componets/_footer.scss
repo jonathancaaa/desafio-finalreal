@@ -1,17 +1,33 @@
 footer{
     background:black;
-    div{
-        text-decoration: none;}
-   .logo-posicion{
+    bottom: 0%;
+    left: 0%;
+    position: relative;
+    height: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-display: swap;
+    padding-top: 5px;
+    width: 100%;
+    
+    .logo-posicion{
         position: fixed;
         bottom: 10px;
         right: 15px;
     } 
-    position: relative;
-    height: 100px;
-    font-family: 'JetBrains Mono';
-    font-display: swap;
+    .nav-footer{
+        list-style-type: none;
+        padding: 6px;
+        margin-left: 8px;
     
+    }
+
+    .nav-link-footer {
+        color:$colorDos;
+        font-size:x-small;
+        text-decoration: none;
+        
+    }
+
 }
 
 

@@ -5,10 +5,14 @@
 }
 
 body{
-    font-family: 'JetBrains Mono';
+    font-family: 'Open Sans', sans-serif;
     font-display: swap;
 }
 
 body{
-  background-color: whitesmoke ;
+  background-color: rgb(238, 228, 228) ;
+}
+
+main{
+  min-height: 100%;
 }

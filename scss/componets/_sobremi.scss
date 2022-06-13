@@ -1,3 +1,4 @@
+main{
 .sobre-mi{
     display: flex;
     align-items: center;
@@ -9,4 +10,16 @@
 .parrafo-sobremi{
     margin: 40px;
     font-size:x-large;
+    display: flex;
+    flex-wrap: wrap;
+    
     }
+    
+    @media (min-width:520px){
+        .parrafo-sobremi{
+        flex: 100%;
+        }
+        
+    }
+   
+}   
