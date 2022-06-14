@@ -1,25 +1,16 @@
 main{
-.sobre-mi{
-    display: flex;
-    align-items: center;
-    margin-left: 50px;
-    margin-bottom: 60px;
-    
+    .sobre-mi{
+        >img{width: 75%;}
     }
+    
+    .parrafo-sobremi{
+        align-items: center;
+        display: flex;
+        font-size:x-large;
+        justify-content: center;
+    }  
 
-.parrafo-sobremi{
-    margin: 40px;
-    font-size:x-large;
-    display: flex;
-    flex-wrap: wrap;
-    
+    .padd-bott{
+        padding-bottom: 80px;
     }
-    
-    @media (min-width:520px){
-        .parrafo-sobremi{
-        flex: 100%;
-        }
-        
-    }
-   
-}   
+}
